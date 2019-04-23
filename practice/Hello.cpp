@@ -1,7 +1,10 @@
-#include<stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(void){
-  printf("Hello world\n");
-
-  return 0;
+int main()
+{
+  cout << "a";
+  cout << "b" << endl;
+  cout << "c"
+       << "d" << endl;
 }
