@@ -1,3 +1,9 @@
 #!/bin/bash
+if [ $# -ne 1 ]; then
+	echo "need arg '*.cpp'"
+	exit 1
+fi
 mkdir -p ./bin
-g++ ./$1.cpp -o ./bin/$1 && ./bin/$1
+filename=`basename $1 .cpp`
+echo $filename
+g++ ./$filename.cpp -o ./bin/$filename && ./bin/$filename
