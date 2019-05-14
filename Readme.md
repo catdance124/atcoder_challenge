@@ -2,6 +2,9 @@ This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
 ===
+# diverta2019
+A,B,D:AC!!!  
+C:WA <- need to think more simple...
 # AGC033
 A:WA  
 https://atcoder.jp/contests/agc033/tasks/agc033_a
