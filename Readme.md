@@ -2,9 +2,14 @@ This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
 
+# ABC128
+A,B: AC!  
+C: ???binary...  
+https://atcoder.jp/contests/abc128
+
 # ABC127
 A,B,C: AC!  
-D: TLE...
+D: TLE...  
 https://atcoder.jp/contests/abc127/submissions?f.User=kinosi
 # ABC126
 A,B,C: AC!  
