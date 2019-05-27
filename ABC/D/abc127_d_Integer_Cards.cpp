@@ -5,32 +5,27 @@ using namespace std;
 int main(void){
   int N, M;
   cin >> N >> M;
-  long long A[N];
-  for (int i = 0; i < N; i++) cin >> A[i];
-  sort(A, A + N);
-
-  vector<pair<int, int>> p(M);
+  vector<pair<long long, long long>> A(N+M);
+  for (int i = 0; i < N; i++){
+    long long t;
+    cin >> t;
+    A.push_back(make_pair(t, 1));
+  }
   for (int i = 0; i < M; i++){
-    int B, C;
+    long long B, C;
     cin >> B >> C;
-    p[i] = make_pair(C, B);
+    A.push_back(make_pair(C, B));
   }
-  sort(p.begin(), p.end()); 
+  sort(A.begin(), A.end());
+  reverse(A.begin(), A.end());
 
-  for (int i = M-1; i >= 0; i--){
-  for (int j = 0; j < p[i].second; j++){
-    if (A[j] < p[i].first)
-      A[j] = p[i].first;
-    else
-      goto end;
+  long long ans = 0;
+  int count = 0;
+  while (N>0){
+    if (A[count].second <= N)  ans += A[count].first * A[count].second;
+    else  ans += A[count].first * N;
+    N -= A[count].second;
+    count++;
   }
-  sort(A, A + N);
-  }
-
-  end:
-    long long sum = 0;
-    for (int i = 0; i < N; i++){
-      sum += A[i];
-    }
-    cout << sum << endl;
+  cout << ans << endl;
 }
