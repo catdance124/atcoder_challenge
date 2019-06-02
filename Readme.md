@@ -1,6 +1,9 @@
 This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
+# AGC034
+A: AC!  
+https://atcoder.jp/contests/agc034/tasks
 # m-solutions2019
 A,B: AC!  
 D: WA (AC for sample case...)  
