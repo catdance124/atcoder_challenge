@@ -1,6 +1,10 @@
 This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
+# m-solutions2019
+A,B: AC!  
+D: WA (AC for sample case...)  
+https://atcoder.jp/contests/m-solutions2019/submissions/5736120
 
 # ABC128
 A,B: AC!  
