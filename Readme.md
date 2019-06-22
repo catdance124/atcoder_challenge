@@ -1,6 +1,10 @@
 This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
+# ABC131
+A,B,C,D: AC!!  
+E,F: ^q^  
+https://atcoder.jp/contests/abc131/submissions?f.User=kinosi  
 # AGC034
 A: AC!  
 https://atcoder.jp/contests/agc034/tasks
@@ -8,12 +12,10 @@ https://atcoder.jp/contests/agc034/tasks
 A,B: AC!  
 D: WA (AC for sample case...)  
 https://atcoder.jp/contests/m-solutions2019/submissions/5736120
-
 # ABC128
 A,B: AC!  
 C: ???binary...  
 https://atcoder.jp/contests/abc128
-
 # ABC127
 A,B,C: AC!  
 D: TLE...  
