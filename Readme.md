@@ -1,6 +1,10 @@
 This repository is for my solutions on atcoder
 ===
 the following is a note of each contest participated
+# 第一回日本最強プログラマー学生選手権-予選-(ARC)
+A: AC!!
+B: もう少し...
+https://atcoder.jp/contests/jsc2019-qual/submissions?f.User=kinosi
 # ABC131
 A,B,C,D: AC!!  
 E,F: ^q^  
